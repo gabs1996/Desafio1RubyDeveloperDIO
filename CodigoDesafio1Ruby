@@ -1,0 +1,8 @@
+# primeiro desafio formação Ruby Developer
+
+print "Digite seu nome completo:    "
+  nome = gets.chomp
+print "Digite a sua idade: "
+  idade = gets.chomp.to_i
+
+puts "Olá #{nome}, seja muito bem vindo(a), sua idade é #{idade} anos."
